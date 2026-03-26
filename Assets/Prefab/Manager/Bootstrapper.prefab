@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &772397112405744830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2034500436556419165}
+  - component: {fileID: 7131536840999985333}
+  m_Layer: 0
+  m_Name: Bootstrapper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2034500436556419165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772397112405744830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7131536840999985333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772397112405744830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e039e2ce05a0e8b43ab7fbddc7548608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bootstrapper
+  gameManagerPrefab: {fileID: 4327212182736238964, guid: 6b3bb5ed48c303345a6c2da268bcd0d0, type: 3}
+  saveManagerPrefab: {fileID: 5687216036742700715, guid: a2d60d5ce954524499e6893f30e59cd4, type: 3}
+  audioManagerPrefab: {fileID: 2582112343900891444, guid: 09981c0503926744ebaa8fa117b33387, type: 3}
+  sceneManagerPrefab: {fileID: 8925894082247000420, guid: 974ecdfe5e03c6c4ca6c8eafa32e6926, type: 3}
+  noteSystemPrefab: {fileID: 3983414231626618108, guid: b9879da800a25944b83e76542b9174fa, type: 3}
+  subtitleSystemPrefab: {fileID: 7138514904432484134, guid: f3869c586765f7b49a4ca1282bb7d546, type: 3}
+  dialogueSystemPrefab: {fileID: 8671593600770513176, guid: 0892803cae5b18b41a1fbbe57fcaa095, type: 3}

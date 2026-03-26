@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/_Boot.unity
+    guid: ade303840cd30a3478dab61131a8a45d
+  - enabled: 1
+    path: Assets/Scene/MainMenu.unity
+    guid: eb85773e54e12d14c9e3ed86a8d39cf4
+  - enabled: 1
+    path: Assets/Scene/Level 1-1.unity
+    guid: 3456a3009d48ff740ba0fbcd4173f09b
+  - enabled: 1
+    path: Assets/Scene/Level 1-2.unity
+    guid: da0c3d0fa8ef5bd41997f629e2fff90b
+  - enabled: 1
+    path: Assets/Scene/Level 2-1.unity
+    guid: 718687bbf78013943870e107fd110922
+  - enabled: 1
+    path: Assets/Scene/Level 2-2.unity
+    guid: 5a0ac95fb9db1b34581a485b600cb9ff
+  - enabled: 1
+    path: Assets/Scene/Level 3-1.unity
+    guid: e68e097128733f14fa7bd646653e8a60
+  - enabled: 1
+    path: Assets/Scene/DialogueBeforeFight.unity
+    guid: 4c00f29a3a2740649a72d6f6ea3a1aaf
+  - enabled: 1
+    path: Assets/Scene/Level 3-2.unity
+    guid: 153bb4b535cfac548a45d03dd7809c57
+  - enabled: 1
+    path: Assets/Scene/DialogueEnd.unity
+    guid: 2bc87e5c09421944c86038482426dd67
+  - enabled: 1
+    path: Assets/Scene/GameOver.unity
+    guid: bfce0aff8f299404ea19b2adc21b9e06
+  - enabled: 1
+    path: Assets/Scene/Ending.unity
+    guid: c46588157570e874494ecd1395f3513f
+  m_configObjects: {}
